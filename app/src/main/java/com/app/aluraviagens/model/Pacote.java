@@ -8,7 +8,7 @@ public class Pacote {
     private final int dias;
     private final BigDecimal preco;
 
-    public Pacote(String imagem, String local, int dias, BigDecimal preco) {
+    public Pacote(String local, String imagem, int dias, BigDecimal preco) {
         this.imagem = imagem;
         this.local = local;
         this.dias = dias;
