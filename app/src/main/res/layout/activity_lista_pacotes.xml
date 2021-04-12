@@ -24,8 +24,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="@string/especiais"
-        android:textSize="24sp"
         android:textColor="@color/white"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@id/lista_pacotes_banner_inicial"
         app:layout_constraintEnd_toEndOf="@id/lista_pacotes_banner_inicial"
         app:layout_constraintHorizontal_bias="0.0"
@@ -39,8 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/pais"
-        android:textSize="18sp"
         android:textColor="@color/white"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/lista_pacotes_especiais"
         app:layout_constraintTop_toBottomOf="@+id/lista_pacotes_especiais" />
@@ -49,12 +49,12 @@
         android:id="@+id/lista_pacotes_listview"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/lista_pacotes_banner_inicial"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:listitem="@layout/item_pacote"
-        android:divider="@null"
-        android:dividerHeight="0dp"/>
+        tools:listitem="@layout/item_pacote" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
